@@ -77,7 +77,7 @@ def approve_or_disapprove_user(message):
     cmd_parts = message.text.split()
 
     if not is_admin:
-        bot.send_message(chat_id, "*🚫 Access Denied! dm for free approve @SIDIKI_MUSTAFA_47*\n"
+        bot.send_message(chat_id, "*🚫 Access Denied!*\n"
                                    "*You don't have permission to use this command.*", parse_mode='Markdown')
         return
 
