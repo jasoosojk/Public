@@ -203,7 +203,7 @@ def process_attack_command(message):
         bot.send_message(message.chat.id, f"*🚀 Attack Launched! 🚀*\n\n"  # Attack launched message
                                            f"*📡 𝐓𝐀𝐑𝐆𝐄𝐓  𝐇𝐎𝐒𝐓: {target_ip}*\n"  # Target host message
                                            f"*👉 𝐓𝐀𝐑𝐆𝐄𝐓 𝐏𝐎𝐑𝐓: {target_port}*\n"  # Target port message
-                                           f"*⏰ 𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍: {duration} seconds! Let the chaos unfold! 🔥* FEED BACK DO YAHA DO @@SIDIKI_MUSTAFA_47 NAHI TO BAN", parse_mode='Markdown')  # Duration message
+                                           f"*⏰ 𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍: {duration} seconds! Let the chaos unfold! 🔥* FEED BACK DO YAHA @SIDIKI_MUSTAFA_47 NAHI TO BAN", parse_mode='Markdown')  # Duration message
 
     except Exception as e:
         logging.error(f"Error in processing attack command: {e}")
